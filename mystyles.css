@@ -1,6 +1,53 @@
-h1{
+.heading{
   color: #452521;
   text-align: center;
-  background-image: image(fav.jpg);
-  background-color: #dbd0ce;
+  font-size: 80px;
+  background-color: lightgrey;
+}
+
+#wizworld{
+  margin-left: 34.5%;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+}
+
+.container > div{
+  font-size: 40px;
+  margin: 50px;
+  padding: 20px;
+  height: 150px
+  width: 200px;
+  border-radius: 15px;
+  box-shadow: 10px;
+}
+
+.container > div:hover{
+  background-blend-mode: hard-light;
+  color: black;
+  font-size: 200px;
+}
+
+#al{
+  background-image:url(alohamora.jpg);
+  color: white;
+  background-color: lightgrey;
+  font-style: normal;
+  font-family: Papyrus;
+  font-weight: bold;
+}
+
+#wl{
+  background-image: url(feather.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-style: normal;
+  font-family: Segoe Script;
+  font-weight: normal;
 }
