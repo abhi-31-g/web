@@ -23,13 +23,13 @@
   height: 150px
   width: 200px;
   border-radius: 15px;
-  box-shadow: 10px;
+  box-shadow: 40px;
 }
 
 .container > div:hover{
   background-blend-mode: hard-light;
   color: black;
-  font-size: 200px;
+  font-size: 45px;
 }
 
 #al{
@@ -49,5 +49,5 @@
   color: white;
   font-style: normal;
   font-family: Segoe Script;
-  font-weight: normal;
+  font-weight: bold;
 }
