@@ -1,3 +1,9 @@
+#st{
+  background-image: url(mypic.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
 .heading{
   color: #452521;
   text-align: center;
@@ -18,12 +24,19 @@
 
 .container > div{
   font-size: 40px;
-  margin: 50px;
+  margin: 60px;
   padding: 20px;
   height: 150px
   width: 200px;
   border-radius: 15px;
   box-shadow: 40px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container > div > a{
+  text-decoration: none
 }
 
 .container > div:hover{
@@ -32,7 +45,7 @@
   font-size: 45px;
 }
 
-#al{
+.al{
   background-image:url(alohamora.jpg);
   color: white;
   background-color: lightgrey;
@@ -41,13 +54,38 @@
   font-weight: bold;
 }
 
-#wl{
+.wl{
   background-image: url(feather.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   color: white;
   font-style: normal;
   font-family: Segoe Script;
   font-weight: bold;
+}
+
+.ex{
+  background-image: url(expelliarmus.jpg);
+  color: white;
+  font-style: normal;
+  font-family: Freestyle Script;
+  font-size: 50px;
+
+}
+
+.ex:hover{
+  font-size: 57px
+}
+
+.lu{
+  background-image: url(lumos.jpg);
+  color:white;
+  font-family: Imprint MT Shadow;
+  font-style: italic;
+}
+
+.ep{
+  background-image: url(patronus.jpg);
+  color: lightgrey;
+  font-family: Kristen ITC;
+  font-style: normal;
+
 }
