@@ -1,0 +1,23 @@
+$color:white;
+$c:center;
+$n:no-repeat;
+$s:cover;
+$size: 80px;
+
+
+h1{
+  color:$color;
+  font-size: $size;
+}
+
+body{
+  background-position: $c;
+  background-repeat: $n;
+  background-size: $s
+}
+
+#k{
+  color: $color;
+  font-size: 15px;
+  text-decoration: none;
+}
